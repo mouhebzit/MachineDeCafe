@@ -1,0 +1,157 @@
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Home</title>
+    <link rel="stylesheet" href="DashboardPage/nicepage.css" media="screen">
+<link rel="stylesheet" href="DashboardPage/Home.css" media="screen">
+    <script class="u-script" type="text/javascript" src="DashboardPage/jquery-1.9.1.min.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="DashboardPage/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.4.6, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"url": "/",
+		"logo": "DashboardPage/images/d3ed754ea692df1cd9654aca2d08e4f6e33bf3dbf25a93d9e0841b4b0136c3d2967c13bef08d6e45f6150b2f390ff9db1c4bf2efe42585334c3cc0_1280.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="/">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-cd56"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="1280" data-image-height="1263">
+          <img src="DashboardPage/images/d3ed754ea692df1cd9654aca2d08e4f6e33bf3dbf25a93d9e0841b4b0136c3d2967c13bef08d6e45f6150b2f390ff9db1c4bf2efe42585334c3cc0_1280.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Page-3.html" style="padding: 10px 20px;">Page 3</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Page-1.html" style="padding: 10px 20px;">Page 1</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Reports-and-Interventions.jsp" style="padding: 10px 20px;">Reports and Interventions</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 20px;">Home</a>
+</li></ul>
+          </div>
+          <div class="u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Page-3.html">Page 3</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Page-1.html">Page 1</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Reports-and-Interventions.jsp">Reports and Interventions</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-image u-section-1" id="sec-2f51" data-image-width="5000" data-image-height="3220">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+          
+          
+            <a href="<c:url value="/home/DispenserServlet?status=Horsservice"/>">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <div class="u-container-style u-expanded u-grey-10 u-group u-opacity u-opacity-75 u-shape-rectangle u-group-1">
+                  <div class="u-container-layout u-valign-top u-container-layout-2">
+                    <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="DashboardPage/images/VendingMachine.png" alt="" data-image-width="512" data-image-height="512">
+                    <h4 class="u-text u-text-default u-text-1">Out of service <br>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </a>
+            
+            <a href="<c:url value="/home/DispenserServlet?status=Enservice"/>">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <div class="u-container-style u-expanded u-grey-10 u-group u-opacity u-opacity-75 u-shape-rectangle u-group-2">
+                  <div class="u-container-layout u-valign-top u-container-layout-4">
+                    <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-2" src="DashboardPage/images/VendingMachine.png" alt="" data-image-width="512" data-image-height="512">
+                    <h4 class="u-text u-text-default u-text-2">To monitor<br>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </a>
+            
+            
+            <a href="<c:url value="/home/DispenserServlet?status=Enservice&supply=1"/>">
+            <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-5">
+                <div class="u-container-style u-expanded u-grey-10 u-group u-opacity u-opacity-75 u-shape-rectangle u-group-3">
+                  <div class="u-container-layout u-valign-top u-container-layout-6">
+                    <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-3" src="DashboardPage/images/VendingMachine.png" alt="" data-image-width="512" data-image-height="512">
+                    <h4 class="u-text u-text-default u-text-3">To supply<br>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </a>
+            
+            
+            <a href="<c:url value="/home/SalesServlet"/>">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-7">
+                <div class="u-container-style u-expanded u-grey-10 u-group u-opacity u-opacity-75 u-shape-rectangle u-group-4">
+                  <div class="u-container-layout u-valign-top u-container-layout-8">
+                    <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-4" src="DashboardPage/images/kisspng-income-business-accounting-service-revenue-coin-5acb77bbc102d7.2505576915232838997906.png" alt="" data-image-width="512" data-image-height="512">
+                    <h4 class="u-text u-text-default u-text-4">Sales</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+        
+        <a href="<c:url value="/home/ReportsInterventionsServlet"/>">
+        <div class="u-container-style u-grey-10 u-group u-opacity u-opacity-75 u-group-5">
+          <div class="u-container-layout u-container-layout-9">
+            <img class="u-image u-image-contain u-image-default u-image-5" src="DashboardPage/images/d3ed754ea692df1cd9654aca2d08e4f6e33bf3dbf25a93d9e0841b4b0136c3d2967c13bef08d6e45f6150b2f390ff9db1c4bf2efe42585334c3cc0_1280.png" alt="" data-image-width="1280" data-image-height="1262">
+            <h4 class="u-text u-text-default u-text-5">Reports and Interventions<br>
+            </h4>
+          </div>
+        </div>
+        </a>
+        
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-a837"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the Text Element.</p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/templates" target="_blank">
+        <span>Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  
+</body></html>
